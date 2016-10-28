@@ -1,7 +1,7 @@
 {
   "name": "process",
   "version": "1.0.0",
-  "description": "",
+  "description": "A static site generator based on nunjucks, stylus and rollup",
   "bin": {
     "process": "index.js"
   },
@@ -19,5 +19,11 @@
     "rimraf": "^2.5.4",
     "rollup": "^0.36.3",
     "stylus": "^0.54.5"
-  }
+},
+    "author": "thomhos",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/thomhos/process.git"
+    }
 }
