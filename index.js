@@ -7,6 +7,7 @@ var program     = require('commander')
 var fs          = require('fs')
 var glob        = require('glob-all')
 var rimraf      = require('rimraf')
+var path        = require('path')
 
 /**
  *  Task dependencies
@@ -32,7 +33,7 @@ var configPath  = program.config
 /**
  *  Get the config file
  */
-var config      = require(configPath);
+var config      = require(path.resolve(configPath));
 var opts        = { watch: config.watch, prod: config.production }
 
 /**
