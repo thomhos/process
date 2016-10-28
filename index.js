@@ -16,6 +16,7 @@ var styles      = require('./tasks/styles')
 var scripts     = require('./tasks/scripts')
 var html        = require('./tasks/html')
 var copy        = require('./tasks/copy')
+var serve       = require('./tasks/serve')
 
 /**
  *  Define the interface
@@ -60,3 +61,5 @@ function startBuild() {
     if(config.scripts)  scripts(config.scripts, opts)
     if(config.copy)     copy(config.copy, opts)
 }
+
+if(config.serve)        serve(global.output)
