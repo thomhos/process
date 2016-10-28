@@ -1,0 +1,23 @@
+{
+  "name": "process",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "process": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "commander": "^2.9.0",
+    "copy": "^0.3.0",
+    "extend": "^3.0.0",
+    "glob-all": "^3.1.0",
+    "mkdirp": "^0.5.1",
+    "nunjucks": "^2.5.2",
+    "rimraf": "^2.5.4",
+    "rollup": "^0.36.3",
+    "stylus": "^0.54.5"
+  }
+}
